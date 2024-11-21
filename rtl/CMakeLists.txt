@@ -1,3 +1,3 @@
 nyu_add_sv(module
-  Module.sv
+  Gates.sv Interface.sv
 )
