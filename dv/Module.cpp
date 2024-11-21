@@ -4,5 +4,8 @@
 
 TEST_CASE("Test") {
   VModule model;
-  REQUIRE(1);
+  model.foo = 1;
+  model.bar = 1;
+  model.eval();
+  REQUIRE(model.baz == 0);
 }
